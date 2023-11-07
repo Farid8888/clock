@@ -27,8 +27,11 @@ console.log(state)
   },[region])
 
 const hh = state.time.getHours() * 30
+console.log(hh)
 const mm = state.time.getMinutes() * 6
+console.log(mm)
 const ss = state.time.getSeconds() * 6
+console.log(ss)
     return (
       <div className="clock">
         <div
